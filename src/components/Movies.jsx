@@ -30,8 +30,8 @@ const Movies = () => {
                 {
                     pages.map((page)=>{
                         return(
-                            <div className=" bg-yellow-600 px-3 py-2">
-                            <button onClick={()=>setCurrentPage(page)} >{page}</button>
+                            <div className=" ">
+                            <button onClick={()=>setCurrentPage(page)} className='bg-yellow-600 px-3 py-2' >{page}</button>
                             </div>
                         )
                     })
