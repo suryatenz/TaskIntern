@@ -1,5 +1,8 @@
 # React + Vite
 
+I have used Axios to fetch data, And for styling I used TailwindCSS.
+And beacuse every time we press the page we need to rerender the data so i have used useeffect along with dependency array.
+
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
 Currently, two official plugins are available:
